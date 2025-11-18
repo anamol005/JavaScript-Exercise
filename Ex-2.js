@@ -143,7 +143,7 @@
 //  return result;
 //}
 //
-//const names = ["Anamol", "Sandesh", "Sudhir", "Biplov"];
+//const names = ["Johnny", "DeeDee", "Joey", "Marky"];
 //const result = concat(names);
 //
 //document.body.innerHTML += `<p>${result}</p>`;
@@ -166,6 +166,7 @@
 //
 //console.log("Original array:", numbers);
 //console.log("Even numbers:", even(numbers));
+
 
 
 
