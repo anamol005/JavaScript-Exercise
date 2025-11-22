@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TV Series Search</title>
+  <script src="4.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    article {
+      border: 1px solid #ccc;
+      padding: 12px;
+      margin-bottom: 12px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    img {
+      width: 150px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>TV Series Search</h1>
+
+  <form id="searchForm">
+    <input id="query" name="q" type="text" placeholder="Enter show name">
+    <input type="submit" value="Search">
+  </form>
+
+  <div id="results"></div>
+
+</body>
+</html>
